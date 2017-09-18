@@ -1,0 +1,208 @@
+body {
+	margin: 0;
+	
+}
+
+p {
+	color: grey;
+}
+
+#topbar {
+	background-color: black;
+	width: 100%;
+	height: 55px;
+	color: white;
+}
+
+.fixedwidth {
+	width: 1050px;
+	margin:0 auto;
+	
+}
+
+#search {
+	padding-top: 20px;
+	color: white;
+	float: left;
+	padding-right: 10px
+}
+
+#bars {
+	color: white;
+	padding: 6px 20px 30px 20px;
+	font-size: 0.7em
+	bottom 3px;
+	float: left;
+	width: 100px;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+#bars i {
+	position: relative;
+	top: 1px;
+}
+
+#topmenu {
+	float: left;
+}
+
+#topmenu ul {
+	margin: 0;
+	padding: 9px;
+	
+}
+
+#topmenu li {
+	list-style: none;
+	color: white;
+	font-size: 1.0em;
+	height: 100%;
+	padding: 10px 20px 12px 20px;
+	float: left;
+}
+
+#topmenu li a {
+	text-decoration: none;
+	color: white;
+	font-size: 0.9em;
+	padding-top: 30px;
+
+}
+
+#SignIn {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.0em;
+}
+
+.button {
+    background-color: #1f1f1f;
+    border: 1px solid #444;
+    border-radius: 4px;
+    font-size: 0.9em;
+    line-height: 20px;
+    color: #f7f7f7;
+    padding: 7px 20px 20px 10px;
+    height: 36px;
+    cursor: pointer;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.break {
+	clear: both;
+}
+
+#news {
+	background-color: white;
+	width: 100%;
+	height: 100px;
+	color: black;
+	text-align: center;
+}
+
+#news p {
+	margin: 0;
+	padding: 0;
+	padding-top: 30px
+}
+
+#newheader {
+	font-size: 4em;
+	color: black;
+}
+
+#content {
+	width: 100%;
+	color: black;
+	font-size: 0.75em;
+}
+
+h1 {
+	color: blue;
+	font-size: 2.5em;
+}
+
+.headline {
+	display: block;
+	padding-bottom: 1px;
+}
+
+.headline1 {
+	display: block;
+	float: right;
+	margin- left: 10px;
+	height: 600px;
+	width: 250px;
+	top: 340px;
+	right: 100px;
+	position: absolute;
+}
+
+.col {
+	padding-top: 30px;
+	column-count: 2;
+	column-gap: 40px;
+	column-rule: 1px solid grey;
+	padding-right: 350px
+}
+
+.col p {
+	margin-top: -2px;
+	font-size: 1.2em;
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+}
+
+.media {
+    width: 100%;
+    margin-bottom: 0px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border: 1px solid #e9e9e9;
+    font-size: 0.9em;
+    margin: 35px 35px 0px 0px;
+    color: black;
+}
+
+.social {
+	height: 30px;
+	width: 30px;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.social p {
+	
+	color: red;
+}
+
+.line {
+	margin-top: 2.25rem;
+	border-top: 1px solid black;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	background-color: red;
+	border-radius: 25px;
+	font-size: 36px;
+
+}
+
+.media a:link {
+	color:black;
+}
+
+footer p {
+	color:red;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 480px) {
+    .topbar {
+        width: 100%;
+    }
